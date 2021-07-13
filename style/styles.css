@@ -1,0 +1,116 @@
+/* elimine los margenes */
+* {
+    margin: 0;
+}
+body{
+    background-color: rgba(230, 230, 230, 0.096);
+}
+header {
+    height: 70vh;
+    background:  url(https://i.ytimg.com/vi/-sn3w8xx8UY/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Ptitle{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    padding-top: 200px;
+    color: white;
+    -webkit-text-stroke: 0.1px rgb(252, 172, 0);
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(252, 172, 0);    
+}
+div.info1{
+    width: 100%;
+}
+.text1{
+    width: 50%;
+}
+.info1{
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.img1{
+    float: right;
+    width: 300px;
+    height: 200px;
+}
+
+
+.info2{
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.lista-info{
+    float: right;
+}
+
+nav li{
+    padding-top: 150px;
+    float: right;
+    display: inline-block;
+}
+
+nav li a{
+    padding: 20px 10px;
+    text-decoration: none;
+    outline: none;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    color: white   
+}
+nav li a:hover{
+    border-bottom: 5px solid rgb(252, 172, 0);
+}
+/* acomoda el menu cuando cambia la pantalla */
+nav li a:last-child{
+    margin-right: 24px;
+}
+
+.img2{
+    float: left;
+    width: 400px;
+    height: 200px;
+}
+.img-icon{
+    float: center;
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    background-color: rgb(252, 172, 0);
+    padding: 20px 10px;
+}
+.cont-pie{
+    display: inline-block;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+
+.pie{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    outline: none;
+}
+.ig{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    outline: none;
+}
+
+
