@@ -27,41 +27,14 @@ header {
     font-family: 'Varela Round', sans-serif;
     color: rgb(252, 172, 0);    
 }
-div.info1{
-    width: 100%;
-}
-.text1{
-    width: 50%;
-}
-.info1{
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.img1{
-    float: right;
-    width: 300px;
-    height: 200px;
-}
-
-
-.info2{
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-.lista-info{
-    float: right;
-}
-
 nav li{
-    padding-top: 150px;
+    padding-top: 125px;
     float: right;
     display: inline-block;
 }
 
 nav li a{
-    padding: 20px 10px;
+ 
     text-decoration: none;
     outline: none;
     font-family: 'Varela Round', sans-serif;
@@ -76,20 +49,65 @@ nav li a:last-child{
     margin-right: 24px;
 }
 
+
+
+
+section.sobre-nosotros{
+padding: 5px;
+}
+div.info1{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 80px;
+}
+.text-nosotros{
+    padding-left: 25px;
+}
+
+.img1{
+    float: right;
+    width: 350px;
+    height: 200px;
+}
+
+section.servicios-{
+    padding: 5px;
+}
+
+div.info2{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 100px;
+}
 .img2{
     float: left;
     width: 400px;
     height: 200px;
+}
+.lista-info{
+    float: right;
+    padding-left: 25px;
+}
+
+
+
+footer{
+    background-color: rgb(252, 172, 0);
+    padding: 20px 10px;
 }
 .img-icon{
     float: center;
     width: 25px;
     height: 25px;
 }
-
-footer{
-    background-color: rgb(252, 172, 0);
-    padding: 20px 10px;
+.ig{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    outline: none;
 }
 .cont-pie{
     display: inline-block;
@@ -97,7 +115,6 @@ footer{
     border-bottom: 1px solid black;
     overflow: hidden;
 }
-
 .pie{
     color: white;
     text-align: center;
@@ -105,7 +122,8 @@ footer{
     text-decoration: none;
     outline: none;
 }
-.ig{
+.copy{
+    padding-top: 15px;
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
