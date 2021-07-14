@@ -12,6 +12,7 @@ header {
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
+
 }
 .Ptitle{
     text-align: center;
@@ -38,7 +39,7 @@ nav li a{
     text-decoration: none;
     outline: none;
     font-family: 'Varela Round', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: white   
 }
 nav li a:hover{
@@ -63,6 +64,7 @@ div.info1{
 }
 .text-nosotros{
     padding-left: 25px;
+    font-size: 16px;
 }
 
 .img1{
@@ -89,6 +91,7 @@ div.info2{
 .lista-info{
     float: right;
     padding-left: 25px;
+    font-size: 16px;
 }
 
 
@@ -96,6 +99,7 @@ div.info2{
 footer{
     background-color: rgb(252, 172, 0);
     padding: 20px 10px;
+    
 }
 .img-icon{
     float: center;
@@ -110,15 +114,17 @@ footer{
     outline: none;
 }
 .cont-pie{
-    display: inline-block;
+    
     padding-bottom: 50px;
     border-bottom: 1px solid black;
     overflow: hidden;
 }
 .pie{
+    padding-left: 70px;
+    display: inline-block;
     color: white;
-    text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
     text-decoration: none;
     outline: none;
 }
