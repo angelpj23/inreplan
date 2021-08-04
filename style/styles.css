@@ -24,6 +24,7 @@ header {
 }
 .title{
     padding-top: 20px;
+    padding: 10px;
     text-align: center;
     font-family: 'Varela Round', sans-serif;
     color: rgb(252, 172, 0);    
@@ -80,22 +81,18 @@ section.servicios-{
 div.info2{
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
-    padding-right: 15px;
-    padding-left: 100px;
 }
 .img2{
     float: left;
-    width: 400px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
 }
 .lista-info{
     float: right;
-    padding-left: 25px;
     font-size: 16px;
 }
 li.lista{
-    padding-top: 35px;
+    padding-top: 15px;
 }
 
 .img-icon{
