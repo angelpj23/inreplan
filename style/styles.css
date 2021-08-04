@@ -32,6 +32,7 @@ nav li{
     padding-top: 125px;
     float: right;
     display: inline-block;
+
 }
 
 nav li a{
@@ -50,20 +51,19 @@ nav li a:last-child{
     margin-right: 24px;
 }
 
-
-
-
 section.sobre-nosotros{
 padding: 5px;
 }
 div.info1{
     display: flex;
+    justify-content: space-around;
     padding-top: 20px;
     padding-right: 25px;
     padding-left: 80px;
 }
 .text-nosotros{
     padding-left: 25px;
+    padding-top: 50px;
     font-size: 16px;
 }
 
@@ -79,6 +79,7 @@ section.servicios-{
 
 div.info2{
     display: flex;
+    justify-content: space-around;
     padding-top: 20px;
     padding-right: 15px;
     padding-left: 100px;
@@ -93,48 +94,49 @@ div.info2{
     padding-left: 25px;
     font-size: 16px;
 }
-
-
-
-footer{
-    background-color: rgb(252, 172, 0);
-    padding: 20px 10px;
-    
+li.lista{
+    padding-top: 35px;
 }
+
 .img-icon{
-    float: center;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+
 }
 .ig{
     color: white;
-    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     outline: none;
+    display: flex;
 }
-.cont-pie{
-    
-    padding-bottom: 50px;
-    border-bottom: 1px solid black;
-    overflow: hidden;
+footer{
+    background-color: rgb(252, 172, 0);
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-around;
 }
 .pie{
-    padding-left: 70px;
-    display: inline-block;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-decoration: none;
-    outline: none;
+    display: inline-block;
+    display: flex;
 }
+
 .copy{
-    padding-top: 15px;
+    background-color: rgb(252, 172, 0);
+    padding: 30px;
     color: white;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     outline: none;
+    display: flex;
+    justify-content: space-around;
 }
+
 
 
