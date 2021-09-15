@@ -61,12 +61,13 @@ div.info1{
 .text-nosotros{
     text-align: center;
     font-size: 16px;
+    padding-top: 20px;
     padding-left: 10px;
 }
 
 .img1{
     float: right;
-    width: 350px;
+    width: 550px;
     height: 200px;
 }
 
@@ -97,14 +98,21 @@ li.lista{
     display: flex;
 
 }
+iframe{
+    float: left;
+
+}
 .box{
-    padding-left: 80vh;
-    
+    padding-left: 20px;
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .contactos{
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     text-decoration: none;
+    padding-bottom: 15px;
 }
 
 .ig{
