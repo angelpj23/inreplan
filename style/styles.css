@@ -6,11 +6,10 @@ body{
     background-color: rgba(230, 230, 230, 0.096);
 }
 header {
-    height: 70vh;
+    height: 60vh;
     background:  url(https://i.ytimg.com/vi/-sn3w8xx8UY/maxresdefault.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 
 }
@@ -18,7 +17,7 @@ header {
     text-align: center;
     font-family: 'Varela Round', sans-serif;
     font-size: 50px;
-    padding-top: 200px;
+    padding-top: 150px;
     color: white;
     -webkit-text-stroke: 0.1px rgb(252, 172, 0);
 }
@@ -29,26 +28,26 @@ header {
     font-family: 'Varela Round', sans-serif;
     color: rgb(252, 172, 0);    
 }
-nav li{
-    padding-top: 125px;
+.lista-nav{
     float: right;
-    display: inline-block;
-
 }
-
-nav li a{
- 
+nav > a{
+    margin: 10px;
+    padding-top: 125px;
+    display: inline-block;
     text-decoration: none;
     outline: none;
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
-    color: white   
+    color: white; 
+    
 }
-nav li a:hover{
+
+nav > a:hover{
     border-bottom: 5px solid rgb(252, 172, 0);
 }
 /* acomoda el menu cuando cambia la pantalla */
-nav li a:last-child{
+nav > a:last-child{
     margin-right: 24px;
 }
 
@@ -98,26 +97,29 @@ li.lista{
     display: flex;
 
 }
+.box{
+    padding-left: 80vh;
+    
+}
+.contactos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .ig{
-    color: white;
+    color: black;
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     outline: none;
     display: flex;
 }
+
 footer{
     background-color: rgb(252, 172, 0);
     padding: 20px 10px;
-    display: flex;
+    display: block;
     justify-content: space-around;
-}
-.pie{
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    text-decoration: none;
-    display: inline-block;
-    display: flex;
 }
 
 .copy{
