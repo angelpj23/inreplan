@@ -86,14 +86,18 @@ div.info2{
 }
 .img2{
     float: left;
-    width: 450px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
+    transform: rotate(-8deg);
+    padding-left: 20px;
+    padding-bottom: 10px;
 }
 .lista-info{
     font-size: 16px;
     font-family: 'Varela Round', sans-serif;
     margin: auto;
     overflow: hidden;
+    left: 0;
 }
 
 li{
