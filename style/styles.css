@@ -82,7 +82,7 @@ section.servicios-{
 
 div.info2{
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 .img2{
     float: left;
@@ -90,12 +90,48 @@ div.info2{
     height: 250px;
 }
 .lista-info{
-    float: right;
     font-size: 16px;
     font-family: 'Varela Round', sans-serif;
+    margin: auto;
+    overflow: hidden;
 }
-li.lista{
-    padding-top: 15px;
+
+li{
+
+    animation: cambiar 5s;
+}
+@keyframes cambiar {
+
+    0% {
+        margin-top: 0;
+    }
+    20% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: -40px;
+    }
+    50% {
+        margin-top: -40px;
+    }
+
+    55% {
+        margin-top: -80px;
+    }
+    80% {
+        margin-top: -80px;
+    }
+
+    85% {
+        margin-top: -40px;
+    }
+    95% {
+        margin-top: -40px;
+    }
+    100% {
+        margin-top: 0;
+    }
 }
 
 .img-icon{
