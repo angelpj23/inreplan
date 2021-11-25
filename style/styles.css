@@ -51,6 +51,10 @@ nav > a:last-child{
     margin-right: 24px;
 }
 
+.here{
+    border-bottom: 5px solid rgb(252, 172, 0);
+}
+
 section.sobre-nosotros{
 padding: 5px;
 }
@@ -63,6 +67,7 @@ div.info1{
     font-size: 16px;
     padding-top: 20px;
     padding-left: 10px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .img1{
@@ -87,6 +92,7 @@ div.info2{
 .lista-info{
     float: right;
     font-size: 16px;
+    font-family: 'Varela Round', sans-serif;
 }
 li.lista{
     padding-top: 15px;
@@ -109,15 +115,16 @@ iframe{
     padding-top: 20px;
 }
 .contactos{
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Varela Round', sans-serif;
     font-size: 18px;
     text-decoration: none;
     padding-bottom: 15px;
+    justify-content: space-between;
 }
 
 .ig{
     color: black;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Varela Round', sans-serif;
     text-decoration: none;
     outline: none;
     display: flex;
@@ -125,19 +132,40 @@ iframe{
 
 footer{
     background-color: rgb(252, 172, 0);
-    padding: 20px 10px;
-    display: block;
-    justify-content: space-around;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: black;
+    border-bottom: 3px solid red;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content-foo p{
+    color: white;
 }
 
 .copy{
-    background-color: rgb(252, 172, 0);
-    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 15px;
     color: white;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
-    outline: none;
     display: flex;
     justify-content: space-around;
 }
